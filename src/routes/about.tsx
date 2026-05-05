@@ -5,7 +5,10 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Farid Asnawi" },
-      { name: "description", content: "Learn about Farid Asnawi — ICT graduate, IT professional, and web developer based in Malaysia." },
+      {
+        name: "description",
+        content: "Learn about Farid Asnawi — ICT graduate, IT professional, and web developer based in Malaysia.",
+      },
     ],
   }),
   component: About,
@@ -47,12 +50,13 @@ const experience = [
 function About() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
-      <h1 className="text-4xl sm:text-5xl font-bold">About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Me</span></h1>
+      <h1 className="text-4xl sm:text-5xl font-bold">
+        About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Me</span>
+      </h1>
       <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-        I'm a motivated and adaptable ICT graduate with hands-on experience in software testing,
-        IT infrastructure support, documentation, and troubleshooting. I'm a strong team
-        collaborator with solid technical knowledge — dedicated to continuous learning and
-        delivering value to organizational objectives.
+        I'm a motivated and adaptable ICT graduate with hands-on experience in software testing, IT infrastructure
+        support, documentation, and troubleshooting. I'm a strong team collaborator with solid technical knowledge —
+        dedicated to continuous learning and delivering value to organizational objectives.
       </p>
 
       <div className="mt-12 grid sm:grid-cols-2 gap-6">
@@ -66,7 +70,7 @@ function About() {
             </div>
             <div>
               <div className="font-medium">Diploma in Computer Engineering</div>
-              <div className="text-muted-foreground">MSU · 2014 – 2018</div>
+              <div className="text-muted-foreground">Management and Science University · 2014 – 2018</div>
             </div>
           </div>
         </div>
@@ -81,7 +85,9 @@ function About() {
         </div>
       </div>
 
-      <h2 className="mt-16 text-2xl font-bold flex items-center gap-2"><Briefcase className="h-6 w-6 text-primary" /> Experience</h2>
+      <h2 className="mt-16 text-2xl font-bold flex items-center gap-2">
+        <Briefcase className="h-6 w-6 text-primary" /> Experience
+      </h2>
       <div className="mt-6 relative border-l-2 border-border pl-6 space-y-8">
         {experience.map((e) => (
           <div key={e.role} className="relative">
@@ -90,7 +96,9 @@ function About() {
             <div className="text-lg font-semibold mt-1">{e.role}</div>
             <div className="text-sm text-muted-foreground">{e.company}</div>
             <ul className="mt-2 text-sm text-muted-foreground list-disc list-inside space-y-1">
-              {e.points.map((p) => <li key={p}>{p}</li>)}
+              {e.points.map((p) => (
+                <li key={p}>{p}</li>
+              ))}
             </ul>
           </div>
         ))}
