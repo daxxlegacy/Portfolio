@@ -30,10 +30,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Farid Asnawi — IT Portfolio" },
+      { title: "Portfolio - Farid Asnawi" },
       { name: "description", content: "Portfolio of Farid Asnawi, ICT graduate specializing in IT support, troubleshooting, and web development." },
       { name: "author", content: "Farid Asnawi" },
-      { property: "og:title", content: "Farid Asnawi — IT Portfolio" },
+      { property: "og:title", content: "Portfolio - Farid Asnawi" },
       { property: "og:description", content: "ICT graduate specializing in IT support and web development." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
