@@ -15,7 +15,7 @@ export function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-bold text-lg">
           <Code2 className="h-5 w-5 text-primary" />
-          <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Farid.dev</span>
+          <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Farid Asnawi</span>
         </Link>
         <nav className="flex items-center gap-1 sm:gap-2">
           {links.map((l) => (
