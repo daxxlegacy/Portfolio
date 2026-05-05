@@ -65,7 +65,7 @@ function About() {
           <h2 className="font-semibold text-lg">Education</h2>
           <div className="mt-3 space-y-3 text-sm">
             <div>
-              <div className="font-medium">Bachelor of ICT (Hons)</div>
+              <div className="font-medium">Bachelor of Information and Communication Technology (Hons)</div>
               <div className="text-muted-foreground">Management and Science University · 2019 – 2023</div>
             </div>
             <div>
