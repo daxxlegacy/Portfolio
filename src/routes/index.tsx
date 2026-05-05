@@ -41,9 +41,7 @@ function Home() {
                 Farid Asnawi
               </span>
             </h1>
-            <p className="mt-4 text-xl sm:text-2xl text-muted-foreground">
-              IT Professional · Web Developer · Problem Solver
-            </p>
+            <p className="mt-4 text-xl sm:text-2xl text-muted-foreground">IT · Web Developer ·</p>
             <p className="mt-6 max-w-xl text-muted-foreground leading-relaxed">
               Motivated ICT graduate with hands-on experience in IT infrastructure support, software testing,
               troubleshooting, and full-stack web development.
