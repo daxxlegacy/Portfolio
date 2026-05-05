@@ -30,14 +30,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Portfolio - Farid Asnawi" },
+      { title: "Farid Asnawi — IT Portfolio" },
       { name: "description", content: "Portfolio of Farid Asnawi, ICT graduate specializing in IT support, troubleshooting, and web development." },
       { name: "author", content: "Farid Asnawi" },
-      { property: "og:title", content: "Portfolio - Farid Asnawi" },
-      { property: "og:description", content: "ICT graduate specializing in IT support and web development." },
+      { property: "og:title", content: "Farid Asnawi — IT Portfolio" },
+      { property: "og:description", content: "Portfolio of Farid Asnawi, ICT graduate specializing in IT support, troubleshooting, and web development." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Farid Asnawi — IT Portfolio" },
+      { name: "twitter:description", content: "Portfolio of Farid Asnawi, ICT graduate specializing in IT support, troubleshooting, and web development." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1d6eabe4-9962-4ad1-9ebe-a00dc6e5da19" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1d6eabe4-9962-4ad1-9ebe-a00dc6e5da19" },
     ],
     links: [
       {
